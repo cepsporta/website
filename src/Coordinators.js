@@ -16,7 +16,7 @@ export default () => {
         {
             name: "Kunchacko Thomas",
             profile: "./images/kunju.jpg",
-            cover: "./images/rotating_card_thumb2.png",
+            cover: "./images/ku.jpg",
             position: "Coordinator",
             mobile: "+919562593720",
             email: "kunchackothomas@gmail.com",
@@ -43,7 +43,7 @@ export default () => {
         {
             name: "Sandeep P V",
             profile: "./images/Sandeep.jpg",
-            cover: "./images/rotating_card_thumb2.png",
+            cover: "./images/ku.jpg",
             position: "Coordinator",
             mobile: "+918156951584",
             email: "sandeeppv96@gmail.com",
