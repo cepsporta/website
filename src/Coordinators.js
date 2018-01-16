@@ -16,7 +16,7 @@ export default () => {
         {
             name: "Kunchacko Thomas",
             profile: "./images/kunju.jpg",
-            cover: "./images/ku.jpg",
+            cover: "./images/cover-4.jpg",
             position: "Coordinator",
             mobile: "+919562593720",
             email: "kunchackothomas@gmail.com",
@@ -34,7 +34,7 @@ export default () => {
         {
             name: "Aby Joseph",
             profile: "./images/Abi.jpg",
-            cover: "./images/rotating_card_thumb.png",
+            cover: "./images/dd.jpg",
             position: "Coordinator",
             mobile: "+918281793889",
             email: "",
@@ -43,7 +43,7 @@ export default () => {
         {
             name: "Sandeep P V",
             profile: "./images/Sandeep.jpg",
-            cover: "./images/ku.jpg",
+            cover: "./images/aa.jpg",
             position: "Coordinator",
             mobile: "+918156951584",
             email: "sandeeppv96@gmail.com",
@@ -52,7 +52,7 @@ export default () => {
         {
             name: "Sourav R Krishna",
             profile: "./images/sou.jpg",
-            cover: "./images/rotating_card_thumb3.png",
+            cover: "./images/pp.jpg",
             position: "Coordinator",
             mobile: "+919544231285",
             email: "souravrkrishna0@gmail.com",
