@@ -8,8 +8,8 @@ export default () => {
             name: "Ajith V Saju",
             profile: "./images/aji.jpeg",
             cover: "./images/rotating_card_thumb.png",
-            position: "Secretary",
-            mobile: "‪8228903733‬",
+            position: "Sports Secretary",
+            mobile: "‪+918228903733‬",
             email: "ajith3075saju@gmail.com",
             facebook: "https://www.facebook.com/ajith.saju.37"
         },
@@ -18,18 +18,45 @@ export default () => {
             profile: "./images/kunju.jpg",
             cover: "./images/rotating_card_thumb2.png",
             position: "Coordinator",
-            mobile: "9562593720",
+            mobile: "+919562593720",
             email: "kunchackothomas@gmail.com",
             facebook: "https://www.facebook.com/kunchac.ko.5"
+        },
+        {
+            name: "Jaick Joseph",
+            profile: "./images/Jaick.jpg",
+            cover: "./images/rotating_card_thumb3.png",
+            position: "Coordinator",
+            mobile: "+917025432057",
+            email: "",
+            facebook: "https://www.facebook.com/jaick.joseph.7"
+        },
+        {
+            name: "Aby Joseph",
+            profile: "./images/Abi.jpg",
+            cover: "./images/rotating_card_thumb.png",
+            position: "Coordinator",
+            mobile: "+918281793889",
+            email: "",
+            facebook: "https://www.facebook.com/aby.joseph.7737"
+        },
+        {
+            name: "Sandeep P V",
+            profile: "./images/Sandeep.jpg",
+            cover: "./images/rotating_card_thumb2.png",
+            position: "Coordinator",
+            mobile: "+918156951584",
+            email: "sandeeppv96@gmail.com",
+            facebook: "https://www.facebook.com/sandeep.pradeep.75"
         },
         {
             name: "Sourav R Krishna",
             profile: "./images/sou.jpg",
             cover: "./images/rotating_card_thumb3.png",
             position: "Coordinator",
-            mobile: "9562593720",
-            email: "kunchackothomas@gmail.com",
-            facebook: "https://www.facebook.com/kunchac.ko.5"
+            mobile: "+919544231285",
+            email: "souravrkrishna0@gmail.com",
+            facebook: "https://www.facebook.com/profile.php?id=100006788475733&ref=br_rs"
         }];
 
     return (
