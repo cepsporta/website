@@ -1,14 +1,8 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<title>SPORTA</title>
+	<title>Sporta</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="SPORTA" />
@@ -25,6 +19,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- bootstrap-css -->
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!--// bootstrap-css -->
+	<link href='css/rotating-card.css' rel='stylesheet' />
 	<!-- css -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 	<!--// css -->
@@ -74,7 +69,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <body>
 	<!-- banner -->
-	<div class="banner">
+	<div id="Home" class="banner">
 
 		<div class="w3ls-slider">
 			<div class="header-top">
@@ -97,27 +92,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="#Events">
+									<span>Events</span>
+								</a>
+							</li>
+							<li>
+								<a href="#About">
 									<span>About</span>
 								</a>
 							</li>
-							<li>
+							<!-- <li>
 								<a href="#">
 									<span>Short Codes</span>
 								</a>
-							</li>
-							<li>
+							</li> -->
+							<!-- <li>
 								<a href="#">
 									<span>Gallery</span>
 								</a>
-							</li>
+							</li> -->
+
 							<li>
-								<a href="#">
-									<span>Training</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
+								<a href="#Contact">
 									<span>Mail Us</span>
 								</a>
 							</li>
@@ -199,7 +195,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- services -->
 
-	<div class="services">
+	<div id="Events" class="services">
 		<div class="container">
 			<div class="w3layouts-services-heading">
 				<h2>GAMES</h2>
@@ -207,25 +203,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="w3-services-grids">
 				<div class="col-md-3 w3l-services-grid">
 					<div class="w3ls-services-img">
-						<i class="fa fa-male" aria-hidden="true"></i>
+						<img class="iconEvent" src="./images/icon/1.svg" />
 					</div>
 					<div class="agileits-services-info">
 						<h4>Cricket</h4>
-						<p>This event contains 15 members from each group, 11 main players and 4 substitutes. The game will be held as same as the IPL Qualifier Match.</p>
+						<p>This event contains 15 members from each group, 11 main players and 4 substitutes. The game will be held as same as
+							the IPL Qualifier Match.</p>
 					</div>
 				</div>
 				<div class="col-md-3 w3l-services-grid">
 					<div class="w3ls-services-img">
-						<i class="fa fa-bicycle" aria-hidden="true"></i>
+						<img class="iconEvent" src="./images/icon/2.svg" />
 					</div>
 					<div class="agileits-services-info">
 						<h4>Badminton</h4>
-						<p>1.Singles  2.Doubles<br>For the each event, there would be only 4 members from each group, 2-Girls, 2-Boys.The game will be a rally of 15-points, with 3 sets each.</p>
+						<p>1.Singles 2.Doubles
+							<br>For the each event, there would be only 4 members from each group, 2-Girls, 2-Boys.The game will be a rally of 15-points,
+							with 3 sets each.</p>
 					</div>
 				</div>
 				<div class="col-md-3 w3l-services-grid">
 					<div class="w3ls-services-img">
-						<i class="fa fa-cog" aria-hidden="true"></i>
+						<img class="iconEvent" src="./images/icon/3.svg" />
+
 					</div>
 					<div class="agileits-services-info">
 						<h4>Kabaddi</h4>
@@ -234,11 +234,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-md-3 w3l-services-grid">
 					<div class="w3ls-services-img">
-						<i class="fa fa-female" aria-hidden="true"></i>
+						<img class="iconEvent" src="./images/icon/4.svg" />
 					</div>
 					<div class="agileits-services-info">
 						<h4>Volley Ball</h4>
-						<p>9 members from each group with 6 as main players and 3 substitutes. Rules and regulations will be announced at the time of event by the Event coordinator.</p>
+						<p>9 members from each group with 6 as main players and 3 substitutes. Rules and regulations will be announced at the
+							time of event by the Event coordinator.</p>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -246,38 +247,46 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="w3-services-grids">
 				<div class="col-md-3 w3l-services-grid">
 					<div class="w3ls-services-img">
-						<i class="fa fa-male" aria-hidden="true"></i>
+						<img class="iconEvent" src="./images/icon/5.svg" />
+
 					</div>
 					<div class="agileits-services-info">
 						<h4>Premier Futsal</h4>
-						<p>This event is only for girls which contains 3 girls from each group. In this they should score goals as per 3s football regulations.</p>
+						<p>This event is only for girls which contains 3 girls from each group. In this they should score goals as per 3s football
+							regulations.
+						</p>
 					</div>
 				</div>
 				<div class="col-md-3 w3l-services-grid">
 					<div class="w3ls-services-img">
-						<i class="fa fa-bicycle" aria-hidden="true"></i>
+						<img class="iconEvent" src="./images/icon/6.svg" />
+
 					</div>
 					<div class="agileits-services-info">
 						<h4>Dodgeball</h4>
-						<p>This is a girls event with 6 members from each group. Rules and regulations will be announced at the time of event by the Event coordinator.</p>
+						<p>This is a girls event with 6 members from each group. Rules and regulations will be announced at the time of event
+							by the Event coordinator.</p>
 					</div>
 				</div>
 				<div class="col-md-3 w3l-services-grid">
 					<div class="w3ls-services-img">
-						<i class="fa fa-cog" aria-hidden="true"></i>
+						<img class="iconEvent" src="./images/icon/7.svg" />
+
 					</div>
 					<div class="agileits-services-info">
 						<h4>Basketball</h4>
-						<p>This is a girls event with 3 members from each group. Rules and regulations will be announced at the time of event by the event coordinater.</p>
+						<p>This is a girls event with 3 members from each group. Rules and regulations will be announced at the time of event
+							by the event coordinater.</p>
 					</div>
 				</div>
 				<div class="col-md-3 w3l-services-grid">
 					<div class="w3ls-services-img">
-						<i class="fa fa-female" aria-hidden="true"></i>
+						<img class="iconEvent" src="./images/icon/8.svg" />
 					</div>
 					<div class="agileits-services-info">
 						<h4>Marathon</h4>
-						<p>The marathon journey would begin from Poonjar Bus Stand where the flag off will be initiated and will end at College of Engineering, Poonjar on 31/01/2018. The participants would cover a 3.9km hilly track. A cash price awaits the winner.</p>
+						<p>The marathon journey would begin from Poonjar Bus Stand where the flag off will be initiated and will end at College
+							of Engineering, Poonjar on 31/01/2018. The participants would cover a 3.9km hilly track. A cash price awaits the winner.</p>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -285,8 +294,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //services -->
-
-	<!-- history -->
+	<!-- 
+	history
 	<div class="jarallax history">
 		<div class="container">
 			<div class="agileinfo-history-grids">
@@ -325,10 +334,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 					});
 				</script>
-				<!--banner Slider starts Here-->
-			</div>
-		</div>
-		<!-- <script type="text/javascript">
+				banner Slider starts Here
+	</div>
+	</div>
+ <script type="text/javascript">
 			/* init Jarallax */
 			$('.jarallax').jarallax({
 				speed: 0.5,
@@ -338,7 +347,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</script> -->
 	</div>
 	<!-- //history -->
-	<!-- rides -->
+	<!-- ride
 	<div class="rides">
 		<div class="container">
 			<div class="w3-agileits-rides-heading">
@@ -373,7 +382,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="rides-grid-info">
 						<img src="images/r4.jpg" alt="" />
 						<h4>4x100 Meter Relay</h4>
-						<p>ITz ALL ABOUT TEAM WORK<br> <br>DOES YOUR TEAM HAS THE GUTz TO WIN IT???</p>
+						<p>ITz ALL ABOUT TEAM WORK
+							<br>
+							<br>DOES YOUR TEAM HAS THE GUTz TO WIN IT???</p>
 					</div>
 				</div>
 				<div class="col-sm-4 rides-grid">
@@ -394,7 +405,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- //rides -->
 	<div id="root"></div>
 	<div class="about">
@@ -403,42 +414,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="agileits-about-top-heading agileits-w3layouts-choose-heading">
 					<h3>Coordinators</h3>
 				</div>
-				<div class="agile-choose-grids">
-					<div class="col-sm-4 agile-choose-grid">
-						<div class="choose-icon">
-							<!-- <i class="fa fa-user" aria-hidden="true"></i> -->
-							<img style="border-radius: 100px;width: 108px;" src="./images/aji.jpeg" alt="">
-						</div>
-						<div class="choose-info">
-							<h4>Ajith V Saju</h4>
-							<p></p>
-							<a href="#">Facebook</a>
-						</div>
-					</div>
+				<div id="Coordinators" class="agile-choose-grids">
 
-					<div class="col-sm-4 agile-choose-grid">
-						<div class="choose-icon">
-							<!-- <i class="fa fa-user" aria-hidden="true"></i> -->
-							<img style="border-radius: 100px;width: 108px;" src="./images/kunju.jpg" alt="">
-						</div>
-						<div class="choose-info">
-							<h4>Kunchako Thomas</h4>
-							<p></p>
-							<a href="#">Facebook</a>
-						</div>
-					</div>
-
-					<div class="col-sm-4 agile-choose-grid">
-						<div class="choose-icon">
-							<!-- <i class="fa fa-user" aria-hidden="true"></i> -->
-							<img style="border-radius: 100px;width: 108px;" src="images/sou.jpg" alt="">
-						</div>
-						<div class="choose-info">
-							<h4>Sourav R Krishna</h4>
-							<p></p>
-							<a href="#">Facebook</a>
-						</div>
-					</div>
 				</div>
 			</div>
 			<script type="text/javascript">
@@ -453,7 +430,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 
 	<!-- About Event -->
-	<div class="training">
+	<div id="About" class="training">
 		<div class="w3l-training-grids">
 			<div class="container">
 				<div class="w3-training-heading">
@@ -461,14 +438,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="w3ls-training-grids">
 					<div class="col-md-8 agileits-training-left">
-						<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo ullamcorper aliquet. Proin est orci, suscipit
-							aliquet cursus ut, iaculis a metus.</h4>
-						<p>Aliquam dictum dui vitae leo dignissim volutpat. Etiam ultrices eget ex ut malesuada. Donec imperdiet sem quis neque
-							dignissim, et congue felis ullamcorper. Donec vel accumsan odio. Quisque ut tortor aliquet est rutrum laoreet. Nullam
-							sit amet lectus et leo efficitur auctor vitae sit amet metus. Aliquam pharetra gravida placerat. Sed mollis tortor
-							tincidunt elit cursus convallis. Mauris in lacinia lectus. Duis vehicula varius quam, et rutrum turpis semper quis.
-							Nullam rhoncus enim dui, at condimentum lectus commodo eu. </p>
-						<a href="#">Read More</a>
+						<h4></h4>
+						<p>Sporta is a sports fest conducted by S4 students of College of Engineering Poonjar.We give opourtunity to everyone
+							to express their athletic talent.Sporta is condeucted on February 2 2018.We wish everyone of our college mates contribute
+							to 100% success of this event.</p>
+						<!-- <a href="#">Read More</a> -->
 					</div>
 					<div class="col-md-4 agileits-training-right">
 						<img src="images/tr1.jpg" alt="" />
@@ -480,26 +454,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	</div>
 
-	<div class="contact">
+	<div id="Contact" class="contact">
 		<div class="container">
 			<div class="agile-contact-form">
 				<div class="col-md-6 contact-form-left">
 					<div class="w3layouts-contact-form-top">
 						<h3>Get in touch</h3>
-						<p>Pellentesque eget mi nec est tincidunt accumsan. Proin fermentum dignissim justo, vel euismod justo sodales vel. In
-							non condimentum mauris. Maecenas condimentum interdum lacus, ac varius nisl dignissim ac. Vestibulum euismod est risus,
-							quis convallis nisi tincidunt eget. Sed ultricies congue lacus at fringilla.</p>
 					</div>
 					<div class="agileits-contact-address">
 						<ul>
 							<li>
 								<i class="fa fa-phone" aria-hidden="true"></i>
-								<span>+1 234 567 8901</span>
+								<span>+91‪8228903733‬</span>
 							</li>
 							<li>
 								<i class="fa fa-phone fa-envelope" aria-hidden="true"></i>
 								<span>
-									<a href="mailto:example@email.com">mail@example.com</a>
+									<a href="mailto:cepsporta@gmail.com">cepsporta@gmail.com</a>
 								</span>
 							</li>
 							<li>
@@ -541,7 +512,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h3>About</h3>
 					<p>We S4 are introducing you the best experience with easiest way to register events as you wish and to be convenient</p>
 				</div>
-				<div class="col-md-3 w3-agile-footer-grid">
+				<!-- <div class="col-md-3 w3-agile-footer-grid">
 					<h3>Events</h3>
 					<ul>
 						<li>12th Aug
@@ -560,11 +531,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<a href="#">Cum sociis</a>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 				<div class="col-md-3 w3-agile-footer-grid">
 					<h3>Navigation</h3>
 					<ul>
-						<li class="text">
+						<!-- <li class="text">
 							<a href="#">Home</a>
 						</li>
 						<li class="text">
@@ -581,6 +552,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</li>
 						<li class="text">
 							<a href="#">Contact</a>
+						</li> -->
+						<li class="text">
+							<a href="#Home">
+								<span>Home</span>
+							</a>
+						</li>
+						<li class="text">
+							<a href="#Events">
+								<span>Events</span>
+							</a>
+						</li>
+						<li class="text">
+							<a href="#About">
+								<span>About</span>
+							</a>
+						</li>
+
+
+						<li class="text">
+							<a href="#Contact">
+								<span>Mail Us</span>
+							</a>
 						</li>
 					</ul>
 				</div>
