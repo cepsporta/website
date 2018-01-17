@@ -5,22 +5,24 @@ import React from "react";
 export default () => {
     let data = [
         {
-            name: "Ajith V Saju",
-            profile: "./images/aji.jpeg",
-            cover: "./images/rotating_card_thumb.png",
-            position: "Sports Secretary",
-            mobile: "‪+918228903733‬",
-            email: "ajith3075saju@gmail.com",
-            facebook: "https://www.facebook.com/ajith.saju.37"
-        },
-        {
             name: "Kunchacko Thomas",
             profile: "./images/kunju.jpg",
             cover: "./images/cover-4.jpg",
             position: "Coordinator",
             mobile: "+919562593720",
             email: "kunchackothomas@gmail.com",
-            facebook: "https://www.facebook.com/kunchac.ko.5"
+            facebook: "https://www.facebook.com/kunchac.ko.5",
+            text: "ECE4"
+
+        }, {
+            name: "Ajith V Saju",
+            profile: "./images/aji.jpeg",
+            cover: "./images/rotating_card_thumb.png",
+            position: "Sports Secretary",
+            mobile: "‪+918228903733‬",
+            email: "ajith3075saju@gmail.com",
+            facebook: "https://www.facebook.com/ajith.saju.37",
+            text: "CSE4"
         },
         {
             name: "Jaick Joseph",
@@ -29,7 +31,9 @@ export default () => {
             position: "Coordinator",
             mobile: "+917025432057",
             email: "",
-            facebook: "https://www.facebook.com/jaick.joseph.7"
+            facebook: "https://www.facebook.com/jaick.joseph.7",
+            text: "CSE4"
+
         },
         {
             name: "Aby Joseph",
@@ -38,7 +42,9 @@ export default () => {
             position: "Coordinator",
             mobile: "+918281793889",
             email: "",
-            facebook: "https://www.facebook.com/aby.joseph.7737"
+            facebook: "https://www.facebook.com/aby.joseph.7737",
+            text: "EEE4"
+
         },
         {
             name: "Sandeep P V",
@@ -47,7 +53,9 @@ export default () => {
             position: "Coordinator",
             mobile: "+918156951584",
             email: "sandeeppv96@gmail.com",
-            facebook: "https://www.facebook.com/sandeep.pradeep.75"
+            facebook: "https://www.facebook.com/sandeep.pradeep.75",
+            text: "CSE4"
+
         },
         {
             name: "Sourav R Krishna",
@@ -56,17 +64,24 @@ export default () => {
             position: "Coordinator",
             mobile: "+919544231285",
             email: "souravrkrishna0@gmail.com",
-            facebook: "https://www.facebook.com/profile.php?id=100006788475733&ref=br_rs"
+            facebook: "https://www.facebook.com/profile.php?id=100006788475733&ref=br_rs",
+            text: "EEE4"
+
         }];
 
     return (
         <div>
-            {
-                data.map((single) => (
-                    <Template {...single } />
-                ))
-            }
-        </div >
+            <div class="agileits-about-top-heading agileits-w3layouts-choose-heading">
+                <h3>Coordinators</h3>
+            </div>
+            <div class="agile-choose-grids">
+                {
+                    data.map((single) => (
+                        <Template {...single } />
+                    ))
+                }
+            </div>
+        </div>
     );
 };
 
@@ -86,9 +101,11 @@ let Template = (props) => {
                         <div className="content">
                             <div className="main">
                                 <h3 className="name">{props.name}</h3>
-                                <p className="profession"></p>
-                                <p className="text-center">
+                                <p className="profession">
                                     {props.position}
+                                </p>
+                                <p className="text-center">
+                                    {props.text}
                                 </p>
                                 <div className="social-links text-center">
                                     <a href={"mailto:" + props.email} className="facebook">
