@@ -1,31 +1,75 @@
 import React from "react";
 
 let data = [{
-    time: "12-10-17",
-    head: "Sporta Lounched",
-    content: "The Sports Event is officially launched in by Principal of College Of Engineeding Poonjar"
-}, {
-    time: "12-10-17",
-    head: "Sporta Lounched",
-    content: "The Sports Event is officially launched in by Principal of College Of Engineeding Poonjar"
-}, {
-    time: "12-10-17",
-    head: "Sporta Lounched",
-    content: "The Sports Event is officially launched in by Principal of College Of Engineeding Poonjar"
-}, {
-    time: "12-10-17",
-    head: "Sporta Lounched",
-    content: "The Sports Event is officially launched in by Principal of College Of Engineeding Poonjar"
-},
+    time: "16-January-2018",
+    posts: [
+        {
+            head: "SPORTA LAUNCHED",
+            content: "The Sports Event is officially launched in by Principal of College Of Engineeding Poonjar."
+        },
+        {
+            head: "CRICKET",
+            content: "Two matches were conducted.The first match was between Karnan and Napoleon.Match was won by Karnan.The second match was between Bhagat Singh and Napoleon.Match was won by Bhagat Singh."
+        },
+        {
+            head: "BADMINTON BOYS(Singles)",
+            content: "There were 2 matches.The first match was between Bhagat Singh and Napoleon.The match was won by Napoleon.The second match was between Bhagat Singh and Karnan.Only one set of game was conducted."
+        },
+        {
+            head: "BADMINTON GIRLS(Singles)",
+            content: "There were 2 matches.The first match was between Bhagat Singh and Napoleon.The match was won by Napoleon.The second match was between Bhagat Singh and Karnan.Only one set of game was conducted."
+        }
+    ]
+},{
+    time: "17-January-2018",
+    posts: [
+        {
+            head: "CRICKET",
+            content: "Cricket final was conducted.The match was between Bhagat Singh and Karnan.The match was won by Bhagat Singh."
+        },
+        {
+            head: "BADMINTON BOYS(Singles)",
+            content: "Final match was conducted between Bhagat Singh and Napoleon.The match was won by Bhagat Singh."
+        },
+        {
+            head: "BADMINTON GIRLS(Singles)",
+            content: "There were 2 matches.The first match was between Bhagat Singh and Karnan.The match was won by Bhagat Singh.The second match was final and the match was between Napoleon and Bhagat Singh.The finals was won by Napoleon."
+        },
+        {
+            head: "BADMINTON BOYS(Doubles)",
+            content: "Final match was conducted between Bhagat Singh and Napoleon.The match was won by Bhagat Singh."
+        },
+        {
+            head: "BADMINTON GIRLS(Doubles)",
+            content: "There were 2 matches.The first match was between Bhagat Singh and Karnan.The match was won by Bhagat Singh.The second match was final and the match was between Napoleon and Bhagat Singh.The finals was won by Napoleon."
+        },
+        {
+            head:"VOLLEY BALL",
+            content: "The match was between Bhagat Singh and Napoleon.The match was won by Bhagat Singh."
+        }
+    ]
+}
 ];
 
 export default () => {
     return (
         <div className="timeline-container">
-            {data.map((singleLine) => (
-                <div className="timeline-item" date-is={singleLine.time}>
-                    <h1>{singleLine.head}</h1>
-                    <p>{singleLine.content}</p>
+            {data.map((singleLine, i) => (
+                <div key={i} className="timeline-item" date-is={singleLine.time}>
+                    {singleLine.hasOwnProperty("posts") ?
+                        singleLine.posts.map((singleBlock, j) => (
+                            <div key={j}>
+                                <h1>{singleBlock.head}</h1>
+                                <p>{singleBlock.content}</p>
+                            </div>
+                        ))
+                        :
+                        <div>
+                            <h1>{singleLine.head}</h1>
+                            <p>{singleLine.content}</p>
+                        </div>
+                    }
+
                 </div>
             ))}
         </div>

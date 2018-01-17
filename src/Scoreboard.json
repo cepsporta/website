@@ -1,20 +1,25 @@
 {
     "Name": "Score Board",
     "Head": [
-        "#",
+        "Sl No",
         "Name",
-        "Age"
+        "Points"
     ],
     "Data": [
         [
             "1",
-            "Apple",
-            "10"
+            "KARNAN",
+            "Score will be published after games"
         ],
         [
             "2",
-            "Orange",
-            "20"
+            "NAPOLEAON",
+            "Score will be published after games"
+        ],
+        [
+            "3",
+            "BHAGAT SINGH",
+            "Score will be published after games"
         ]
     ]
 }
