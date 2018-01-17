@@ -9,15 +9,15 @@ let data = [{
         },
         {
             head: "CRICKET",
-            content: "Two matches were conducted.The first match was between Karnan and Napoleon.Match was won by Karnan.The second match was between Bhagat Singh and Napoleon.Match was won by Bhagat Singh."
+            content: "Two matches were conducted. The first match was between Karnan and Napoleon. Karnan qualified to next round.The second match was between Bhagat Singh and Napoleon. Bhagat Singh was qualified."
         },
         {
             head: "BADMINTON BOYS(Singles)",
-            content: "There were 2 matches.The first match was between Bhagat Singh and Napoleon.The match was won by Napoleon.The second match was between Bhagat Singh and Karnan.Only one set of game was conducted."
+            content: "There were 2 matches. The first match was between Bhagat Singh and Napoleon. The match was won by Napoleon. The second match was between Bhagat Singh and Karnan. Only one set of game was conducted."
         },
         {
             head: "BADMINTON GIRLS(Singles)",
-            content: "There were 2 matches.The first match was between Bhagat Singh and Napoleon.The match was won by Napoleon.The second match was between Bhagat Singh and Karnan.Only one set of game was conducted."
+            content: "There were 2 matches.The first match was between Bhagat Singh and Napoleon. The match was won by Napoleon. The second match was between Bhagat Singh and Karnan. Only one set of game was conducted."
         }
     ]
 },{
@@ -25,27 +25,27 @@ let data = [{
     posts: [
         {
             head: "CRICKET",
-            content: "Cricket final was conducted.The match was between Bhagat Singh and Karnan.The match was won by Bhagat Singh."
+            content: "Cricket final was conducted. The match was between Bhagat Singh and Karnan. Bhagat Singh won the match."
         },
         {
             head: "BADMINTON BOYS(Singles)",
-            content: "Final match was conducted between Bhagat Singh and Napoleon.The match was won by Bhagat Singh."
+            content: "Final match was conducted between Bhagat Singh and Napoleon. The match was won by Bhagat Singh."
         },
         {
             head: "BADMINTON GIRLS(Singles)",
-            content: "There were 2 matches.The first match was between Bhagat Singh and Karnan.The match was won by Bhagat Singh.The second match was final and the match was between Napoleon and Bhagat Singh.The finals was won by Napoleon."
+            content: "There were 2 matches. The first match was between Bhagat Singh and Karnan.The match was won by Bhagat Singh. The second match was final and the match was between Napoleon and Bhagat Singh. The finals was won by Napoleon."
         },
         {
             head: "BADMINTON BOYS(Doubles)",
-            content: "Final match was conducted between Bhagat Singh and Napoleon.The match was won by Bhagat Singh."
+            content: "Final match was conducted between Bhagat Singh and Napoleon. The match was won by Bhagat Singh."
         },
         {
             head: "BADMINTON GIRLS(Doubles)",
-            content: "There were 2 matches.The first match was between Bhagat Singh and Karnan.The match was won by Bhagat Singh.The second match was final and the match was between Napoleon and Bhagat Singh.The finals was won by Napoleon."
+            content: "There were 2 matches. The first match was between Bhagat Singh and Karnan. The match was won by Bhagat Singh. The second match was final and the match was between Napoleon and Bhagat Singh. The finals was won by Napoleon."
         },
         {
             head:"VOLLEY BALL",
-            content: "The match was between Bhagat Singh and Napoleon.The match was won by Bhagat Singh."
+            content: "The match was between Bhagat Singh and Napoleon. The match was won by Bhagat Singh."
         }
     ]
 }
