@@ -71,13 +71,13 @@ export default () => {
 
     return (
         <div>
-            <div class="agileits-about-top-heading agileits-w3layouts-choose-heading">
+            <div className="agileits-about-top-heading agileits-w3layouts-choose-heading">
                 <h3>Coordinators</h3>
             </div>
-            <div class="agile-choose-grids">
+            <div className="agile-choose-grids">
                 {
-                    data.map((single) => (
-                        <Template {...single } />
+                    data.map((single, i) => (
+                        <Template key={i} {...single } />
                     ))
                 }
             </div>
@@ -87,7 +87,7 @@ export default () => {
 
 let Template = (props) => {
     return (
-        <div class="col-sm-4 agile-choose-grid">
+        <div className="col-sm-4 agile-choose-grid">
 
             <div className="card-container manual-flip">
                 <div className="card">

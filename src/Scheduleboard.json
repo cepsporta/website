@@ -1,0 +1,20 @@
+{
+    "Name": "Schedule Board",
+    "Head": [
+        "#",
+        "Name",
+        "Age"
+    ],
+    "Data": [
+        [
+            "1",
+            "Apple",
+            "10"
+        ],
+        [
+            "2",
+            "Orange",
+            "20"
+        ]
+    ]
+}
