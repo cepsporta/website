@@ -1,5 +1,15 @@
 [
     {
+        "name": "Dr. Jayachandran E S",
+        "profile": "./images/principal.jpg",
+        "cover": "./images/rotating_card_thumb.png",
+        "position": "Principal",
+        "mobile": "‪+91 85-47-005035",
+        "email": "principal@cep.ac.in",
+        "facebook": "",
+        "text": "Principal"
+    },
+    {
         "name": "Sreekumar K",
         "profile": "./images/sreekumark.jpg",
         "cover": "./images/rotating_card_thumb.png",

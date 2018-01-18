@@ -1,6 +1,6 @@
 [
     {
-        "Name": "Schedule [18 January 2018]",
+        "Name": "Schedule [19 January 2018]",
         "Head": [
             "SlNo",
             "Event",
@@ -10,45 +10,33 @@
         "Data": [
             [
                 "1",
+                "FudSal",
+                "Girls",
+                "4:00PM"
+            ],
+            [
+                "2",
+                "Dauge Ball",
+                "Girls",
+                "3:45PM"
+            ],
+            [
+                "3",
+                "Carroms",
+                "Boys",
+                "12:45PM,3:30PM"
+            ],
+            [
+                "4",
                 "Chess",
                 "Girls and Boys",
                 "12:45PM"
             ],
             [
-                "2",
-                "Volley Ball",
-                "Boys",
-                "3:30PM"
-            ],
-            [
-                "3",
-                "Badminton Doubles",
-                "Girls and Boys",
-                "3:30PM"
-            ],
-            [
-                "4",
-                "Carroms Doubles",
-                "Girls",
-                "3:30PM"
-            ],
-            [
                 "5",
-                "Dodge Ball",
-                "Girls",
-                "4:00PM"
-            ],
-            [
-                "6",
-                "Premier FutSal",
-                "Girls",
-                "4:45PM"
-            ],
-            [
-                "7",
-                "Kabbaddi",
+                "Badminton Doubles",
                 "Boys",
-                "4:45PM"
+                "3:45PM"
             ]
         ]
     },
