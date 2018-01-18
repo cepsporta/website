@@ -5,7 +5,7 @@ let data = [{
     posts: [
         {
             head: "SPORTA LAUNCHED",
-            content: "The Sports Event is officially launched in by Principal of College Of Engineeding Poonjar."
+            content: "The Sports Event is officially launched in by Principal of College Of Engineering Poonjar."
         },
         {
             head: "CRICKET",
@@ -37,15 +37,15 @@ let data = [{
         },
         {
             head: "BADMINTON BOYS(Doubles)",
-            content: "Final match was conducted between Bhagat Singh and Napoleon. The match was won by Bhagat Singh."
+            content: ""
         },
         {
             head: "BADMINTON GIRLS(Doubles)",
-            content: "There were 2 matches. The first match was between Bhagat Singh and Karnan. The match was won by Bhagat Singh. The second match was final and the match was between Napoleon and Bhagat Singh. The finals was won by Napoleon."
+            content: ""
         },
         {
             head:"VOLLEY BALL",
-            content: "The match was between Bhagat Singh and Napoleon. The match was won by Bhagat Singh."
+            content: ""
         }
     ]
 }
