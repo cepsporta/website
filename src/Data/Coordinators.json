@@ -1,5 +1,15 @@
 [
     {
+        "name": "Sreekumar K",
+        "profile": "./images/sreekumark.jpg",
+        "cover": "./images/rotating_card_thumb.png",
+        "position": "Staff Coordinator",
+        "mobile": "‪+918228903733‬",
+        "email": "sreekuk@gmail.com",
+        "facebook": "https://www.facebook.com/ajith.saju.37",
+        "text": "Assistant Professor"
+    },
+    {
         "name": "Ajith V Saju",
         "profile": "./images/aji.jpeg",
         "cover": "./images/rotating_card_thumb.png",
