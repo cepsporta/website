@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Ajith V Saju",
+        "profile": "./images/aji.jpeg",
+        "cover": "./images/rotating_card_thumb.png",
+        "position": "Sports Secretary",
+        "mobile": "‪+918228903733‬",
+        "email": "ajith3075saju@gmail.com",
+        "facebook": "https://www.facebook.com/ajith.saju.37",
+        "text": "CSE4"
+    },
+    {
+        "name": "Kunchacko Thomas",
+        "profile": "./images/kunju.jpg",
+        "cover": "./images/cover-4.jpg",
+        "position": "Coordinator",
+        "mobile": "+919562593720",
+        "email": "kunchackothomas@gmail.com",
+        "facebook": "https://www.facebook.com/kunchac.ko.5",
+        "text": "ECE4"
+    },
+    {
+        "name": "Jaick Joseph",
+        "profile": "./images/Jaick.jpg",
+        "cover": "./images/rotating_card_thumb3.png",
+        "position": "Coordinator",
+        "mobile": "+917025432057",
+        "email": "",
+        "facebook": "https://www.facebook.com/jaick.joseph.7",
+        "text": "CSE4"
+    },
+    {
+        "name": "Aby Joseph",
+        "profile": "./images/Abi.jpg",
+        "cover": "./images/dd.jpg",
+        "position": "Coordinator",
+        "mobile": "+918281793889",
+        "email": "",
+        "facebook": "https://www.facebook.com/aby.joseph.7737",
+        "text": "EEE4"
+    },
+    {
+        "name": "Sandeep P V",
+        "profile": "./images/Sandeep.jpg",
+        "cover": "./images/aa.jpg",
+        "position": "Coordinator",
+        "mobile": "+918156951584",
+        "email": "sandeeppv96@gmail.com",
+        "facebook": "https://www.facebook.com/sandeep.pradeep.75",
+        "text": "CSE4"
+    },
+    {
+        "name": "Sourav R Krishna",
+        "profile": "./images/sou.jpg",
+        "cover": "./images/pp.jpg",
+        "position": "Coordinator",
+        "mobile": "+919544231285",
+        "email": "souravrkrishna0@gmail.com",
+        "facebook": "https://www.facebook.com/profile.php?id=100006788475733&ref=br_rs",
+        "text": "EEE4"
+    }
+]

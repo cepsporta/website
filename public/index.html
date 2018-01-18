@@ -45,7 +45,7 @@
 	<style>
 		.w3l-banner-grids {
 			/* padding: 0px; */
-			position: absolute;
+			position: relative;
 			width: 100%;
 			height: 100%;
 			top: 0px;
@@ -83,45 +83,8 @@
 							</a>
 						</h1>
 					</div>
-					<div class="header-right">
-						<!-- <nav > -->
-						<ul class="slimmenu">
-							<li class="active">
-								<a href="#">
-									<span>Home</span>
-								</a>
-							</li>
-							<li>
-								<a href="#Events">
-									<span>Events</span>
-								</a>
-							</li>
-							<li>
-								<a href="#About">
-									<span>About</span>
-								</a>
-							</li>
-							<!-- <li>
-								<a href="#">
-									<span>Short Codes</span>
-								</a>
-							</li> -->
-							<!-- <li>
-								<a href="#">
-									<span>Gallery</span>
-								</a>
-							</li> -->
+					<div id="MainMenu" class="header-right">
 
-							<li>
-								<a href="#Contact">
-									<span>Mail Us</span>
-								</a>
-							</li>
-						</ul>
-						<!-- </nav> -->
-						<!-- <div class="menu-icon">
-							<span></span>
-						</div> -->
 					</div>
 					<div class="clearfix"> </div>
 					<script>
@@ -143,54 +106,29 @@
 			</div>
 			<div class="w3l-banner-grids">
 				<div class="container">
-					<div class="slider">
-						<div class="callbacks_container">
-							<ul class="rslides" id="slider4">
-								<li>
-									<div class="w3ls-text ">
-										<h1 class="sportaSlide">SPORTA</h1>
-										<p>Sports 2K18</p>
-										<p> College Of Engineering Poonjar</p>
-										<!-- <a>Register Now</a> -->
-									</div>
-								</li>
-							</ul>
-						</div>
-						<script src="js/responsiveslides.min.js"></script>
-						<script>
-							// You can also use "$(window).load(function() {"
-							$(function () {
-								// Slideshow 4
-								$("#slider4").responsiveSlides({
-									auto: false,
-									pager: false,
-									nav: false,
-									speed: 500,
-									namespace: "callbacks",
-									before: function () {
-										$('.events').append("<li>before event fired.</li>");
-									},
-									after: function () {
-										$('.events').append("<li>after event fired.</li>");
-									}
-								});
 
-							});
-						</script>
-						<!--banner Slider starts Here-->
+					<div class="w3ls-text ">
+						<h1 class="sportaSlide">SPORTA</h1>
+						<p>Sports 2K18</p>
+						<p> College Of Engineering Poonjar</p>
+						<!-- <a>Register Now</a> -->
 					</div>
+
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- //banner -->
 	<script>
-		$('.slimmenu').slimmenu({
-			resizeWidth: '800',
-			collapserTitle: 'Menu',
-			animSpeed: 'medium',
-			// indentChildren: true,
-			childrenIndenter: '&raquo;'
+		$(document).ready(function () {
+
+			$('.slimmenu').slimmenu({
+				resizeWidth: '800',
+				collapserTitle: 'Menu',
+				animSpeed: 'medium',
+				// indentChildren: true,
+				childrenIndenter: '&raquo;'
+			});
 		});
 	</script>
 	<!-- services -->
@@ -198,7 +136,7 @@
 
 
 
-	<div id="Events" class="services">
+	<div id="Events" class="services section">
 		<div class="container">
 			<div class="w3layouts-services-heading">
 				<h2>GAMES</h2>
@@ -297,27 +235,10 @@
 		</div>
 	</div>
 
-	<div class="about">
-		<div class="jarallax w3-agileits-choose w3-agileits-choose3">
-			<div class="container">
-				<div id="Scoreboard">
 
-				</div>
-
-			</div>
-			<script type="text/javascript">
-				/* init Jarallax */
-				$('.jarallax').jarallax({
-					speed: 0.5,
-					imgWidth: 1366,
-					imgHeight: 768
-				})
-			</script>
-		</div>
-	</div>
 
 	<!-- //services -->
-	<div id="Events" class="services">
+	<div id="Events" class="services section">
 		<div class="container">
 			<div class="w3layouts-services-heading">
 				<h2>Athletics</h2>
@@ -420,10 +341,14 @@
 		</div>
 	</div>
 
-	<div class="about">
-		<div class="jarallax w3-agileits-choose w3-agileits-choose2">
+	<!-- //rides -->
+
+	<div id="root"></div>
+
+	<div class="about section">
+		<div class="jarallax w3-agileits-choose w3-agileits-choose3">
 			<div class="container">
-				<div id="Scheduleboard">
+				<div id="Boards">
 
 				</div>
 
@@ -439,12 +364,7 @@
 		</div>
 	</div>
 
-	<!-- //rides -->
-
-	<div id="root"></div>
-
-
-	<div id="TimelineBlock" class="services">
+	<div id="TimelineBlock" class="services section">
 		<div class="container">
 			<div class="w3layouts-services-heading">
 				<h2>Timeline</h2>
@@ -457,7 +377,7 @@
 	</div>
 	</div>
 
-	<div class="about">
+	<div class="about section">
 		<div class="jarallax w3-agileits-choose">
 			<div class="container">
 				<div id="Coordinators">
@@ -477,7 +397,7 @@
 
 
 	<!-- About Event -->
-	<div id="About" class="training">
+	<div id="About" class="training section">
 		<div class="w3l-training-grids">
 			<div class="container">
 				<div class="w3-training-heading">
@@ -500,7 +420,7 @@
 
 	</div>
 
-	<div id="Contact" class="contact">
+	<div id="Contact" class="contact section">
 		<div class="container">
 			<div class="agile-contact-form">
 				<div class="col-md-6 contact-form-left">
@@ -556,7 +476,10 @@
 			<div class="agile-footer-grids">
 				<div class="col-md-5 w3-agile-footer-grid">
 					<h3>Navigation</h3>
-					<ul>
+					<div id="FooterMenu">
+
+					</div>
+					<!-- <ul>
 						<li class="text">
 							<a href="#Home">
 								<span>Home</span>
@@ -577,7 +500,7 @@
 								<span>Mail Us</span>
 							</a>
 						</li>
-					</ul>
+					</ul> -->
 				</div>
 				<div class="col-md-5 w3-agile-footer-grid">
 					<h3>About</h3>

@@ -1,14 +1,20 @@
 import React from "react";
+import reactStringReplace from "react-string-replace";
+
 export default (props) => (
-    <div class="table-responsive">
-        <table class="table">
+    <div className="table-responsive">
+        <table className="table">
             <thead>
                 <tr>
-                    <th align="center" class="HeadShedule" colspan="6">
-                        {props.BoardName}
+                    <th align="center" className="HeadShedule" colSpan="6">
+                        {
+                            reactStringReplace(props.BoardName, /\[+([^\][]+)]+/g, (match, i) => (
+                                <span key={i}>{match}</span>
+                            ))
+                        }
                     </th>
                 </tr>
-                <tr class="border">
+                <tr className="border">
                     {props.data.map((headName, i) => (
                         <th key={i} >{headName}</th>
                     ))}

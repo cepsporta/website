@@ -1,0 +1,80 @@
+[
+    {
+        "Name": "Schedule [18 January 2018]",
+        "Head": [
+            "SlNo",
+            "Event",
+            "Category",
+            "Time"
+        ],
+        "Data": [
+            [
+                "1",
+                "Chess",
+                "Girls and Boys",
+                "12:45PM"
+            ],
+            [
+                "2",
+                "Volley Ball",
+                "Boys",
+                "3:30PM"
+            ],
+            [
+                "3",
+                "Badminton Doubles",
+                "Girls and Boys",
+                "3:30PM"
+            ],
+            [
+                "4",
+                "Carroms Doubles",
+                "Girls",
+                "3:30PM"
+            ],
+            [
+                "5",
+                "Dodge Ball",
+                "Girls",
+                "4:00PM"
+            ],
+            [
+                "6",
+                "Premier FutSal",
+                "Girls",
+                "4:45PM"
+            ],
+            [
+                "7",
+                "Kabbaddi",
+                "Boys",
+                "4:45PM"
+            ]
+        ]
+    },
+    {
+        "Name": "Score Board",
+        "Head": [
+            "Sl No",
+            "Name",
+            "Points"
+        ],
+        "Data": [
+            [
+                "1",
+                "KARNAN",
+                "Score will be published after games"
+            ],
+            [
+                "2",
+                "NAPOLEAON",
+                "Score will be published after games"
+            ],
+            [
+                "3",
+                "BHAGAT SINGH",
+                "Score will be published after games"
+            ]
+        ]
+    }
+]
