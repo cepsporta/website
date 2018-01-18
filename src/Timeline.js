@@ -37,15 +37,15 @@ let data = [{
         },
         {
             head: "BADMINTON BOYS(Doubles)",
-            content: ""
+            content: "The match was between Bhagat Singh and Napoleon.Bhagat Singh got promoted to finals."
         },
         {
             head: "BADMINTON GIRLS(Doubles)",
-            content: ""
+            content: "There were two matches. The first was between Bhagat Singh and Napoleon.Napoleon got selected to next round.The second game was between Bhagat Singh and Karnan.Karnan got selected to next round."
         },
         {
             head:"VOLLEY BALL",
-            content: ""
+            content: "The match was between Bhagat Singh and Napoleon.Bhagat Singh got promoted to next round. "
         }
     ]
 }
