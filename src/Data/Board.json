@@ -1,49 +1,8 @@
 [
     {
-        "Name": "Schedule [19 January 2018]",
-        "Head": [
-            "SlNo",
-            "Event",
-            "Category",
-            "Time"
-        ],
-        "Data": [
-            [
-                "1",
-                "FutSal",
-                "Girls",
-                "4:00PM"
-            ],
-            [
-                "2",
-                "Dodge Ball",
-                "Girls",
-                "3:45PM"
-            ],
-            [
-                "3",
-                "Carroms",
-                "Boys",
-                "12:45PM,3:30PM"
-            ],
-            [
-                "4",
-                "Chess",
-                "Girls and Boys",
-                "12:45PM"
-            ],
-            [
-                "5",
-                "Badminton Doubles",
-                "Boys",
-                "3:45PM"
-            ]
-        ]
-    },
-    {
         "Name": "Score Board",
         "Head": [
-            "Sl No",
+            "#",
             "Name",
             "Points"
         ],
@@ -51,18 +10,19 @@
             [
                 "1",
                 "KARNAN",
-                "Score will be published after games"
+                "31"
             ],
             [
                 "2",
                 "NAPOLEAON",
-                "Score will be published after games"
+                "43"
             ],
             [
                 "3",
                 "BHAGAT SINGH",
-                "Score will be published after games"
-            ]
+                "34"
+            ],
+            "* In this points data cricket, carroms are not included. "
         ]
     }
 ]

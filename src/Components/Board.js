@@ -6,7 +6,7 @@ export default (props) => (
         <table className="table">
             <thead>
                 <tr>
-                    <th align="center" className="HeadShedule" colSpan="6">
+                    <th align="center" className="HeadShedule" colSpan={props.data.length}>
                         {
                             reactStringReplace(props.BoardName, /\[+([^\][]+)]+/g, (match, i) => (
                                 <span key={i}>{match}</span>
@@ -23,9 +23,9 @@ export default (props) => (
             <tbody>
                 {props.data2.map((rowData, j) => {
                     return (<tr key={j}>{
-                        rowData.map((colData, p) => (
-                            <td key={p}>{colData}</td>)
-                        )}
+                        (Array.isArray(rowData)) ?
+                            rowData.map((colData, p) => (<td key={p}>{colData}</td>))
+                            : <td colSpan={props.data.length}>{rowData}</td>}
                     </tr>);
                 })}
             </tbody>
