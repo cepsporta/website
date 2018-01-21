@@ -1,6 +1,6 @@
 import React from 'react';
-import { Slide, IconButton } from 'material-ui';
-import CloseIcon from "material-ui-icons/Close";
+import { Slide, Button } from 'material-ui';
+// import CloseIcon from "material-ui-icons/Close";
 import Snackbar from 'material-ui/Snackbar';
 import { Notification } from "./../Data";
 
@@ -39,14 +39,9 @@ class PositionedSnackbar extends React.Component {
                     onClose={this.handleClose}
                     transition={this.transitionDown}
                     autoHideDuration={4000}
-                    action={<IconButton
-                        key="close"
-                        aria-label="Close"
-                        color="inherit"
-                        onClick={this.handleClose}
-                    >
-                        <CloseIcon />
-                    </IconButton>}
+                    action={<Button key="undo" color="accent" dense onClick={this.handleClose}>
+                        <b> CLOSE</b>
+                    </Button>}
                     SnackbarContentProps={{
                         'aria-describedby': 'message-id',
                     }}
