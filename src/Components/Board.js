@@ -27,7 +27,7 @@ export default (props) => (
                             rowData.map((colData, p) => (<td key={p}>{colData}</td>))
                             : <td colSpan={props.data.length}>{
                                 reactStringReplace(rowData, /\[+([^\][]+)]+/g, (match, i) => (
-                                    <div class="ScoreBoardHighlight" key={i}>{match}</div>
+                                    <div key={i} className="ScoreBoardHighlight" key={i}>{match}</div>
                                 ))
 
                             }</td>}
