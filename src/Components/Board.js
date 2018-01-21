@@ -25,7 +25,12 @@ export default (props) => (
                     return (<tr key={j}>{
                         (Array.isArray(rowData)) ?
                             rowData.map((colData, p) => (<td key={p}>{colData}</td>))
-                            : <td colSpan={props.data.length}>{rowData}</td>}
+                            : <td colSpan={props.data.length}>{
+                                reactStringReplace(rowData, /\[+([^\][]+)]+/g, (match, i) => (
+                                    <div class="ScoreBoardHighlight" key={i}>{match}</div>
+                                ))
+
+                            }</td>}
                     </tr>);
                 })}
             </tbody>
