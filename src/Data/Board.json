@@ -1,6 +1,6 @@
 [
     {
-        "Name": "Schedule [22 January 2018]",
+        "Name": "Schedule [31 January 2018]",
         "Head": [
             "#",
             "Event",
@@ -8,18 +8,11 @@
             "Time"
         ],
         "Data": [
-            "[* There would be a special wild card entry team to challenge the winners are you up for it ?]",
             [
                 "1",
-                "Badminton Doubles",
-                "Boys",
-                "4:00PM"
-            ],
-            [
-                "2",
-                "Carroms Doubles Final",
-                "Boys",
-                "3:45PM"
+                "Marathon",
+                "Boys and Girls",
+                "3:30PM"
             ]
         ]
     },
@@ -33,20 +26,19 @@
         "Data": [
             [
                 "1",
-                "KARNAN",
-                "31"
+                "BHAGAT SINGH",
+                "64"
             ],
             [
                 "2",
                 "NAPOLEAON",
-                "43"
+                "53"
             ],
             [
                 "3",
-                "BHAGAT SINGH",
-                "34"
-            ],
-            "* In this points data cricket, carroms are not included."
+                "KARNAN",
+                "46"
+            ]
         ]
     }
 ]
