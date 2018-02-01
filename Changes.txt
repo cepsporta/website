@@ -1,0 +1,8 @@
+Changes Need To applay
+
+Modify The time line in index.html
+Update the score board by editing src/Scoreboard.json
+Update the Scheduleboard by editing src/Scheduleboard.json
+Update their background with sutable image background2 background3 are their files
+
+After All completion mail me and deploy it

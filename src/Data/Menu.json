@@ -1,0 +1,30 @@
+[
+    {
+        "Name": "Home",
+        "Link": "#"
+    },
+    {
+        "Name": "Boards",
+        "Link": "#Boards"
+    },
+    {
+        "Name": "Events",
+        "Link": "#Events"
+    },
+    {
+        "Name": "Timeline",
+        "Link": "#TimelineBlock"
+    },
+    {
+        "Name": "Coordinators",
+        "Link": "#Coordinators"
+    },
+    {
+        "Name": "About",
+        "Link": "#About"
+    },
+    {
+        "Name": "Contact",
+        "Link": "#Contact"
+    }
+]
